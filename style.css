@@ -1,0 +1,8 @@
+.heroimagecss {
+  background: url(hill.jpg) no-repeat center center fixed; /*Delete 'fixed' to have the image scroll*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width:100%;
+}
