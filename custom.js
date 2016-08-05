@@ -1,10 +1,3 @@
-function heroHeight(){
-viewportHeight=$(window).height();
-$('#heroImage').css({'height':viewportHeight});
-}
-$(function(){
-heroHeight();
+$(window).on("load resize",function(){
+  $('#heroImage').css({'height':$(window).height()});
 });
-window.onresize=function(){
-heroHeight();
-}
